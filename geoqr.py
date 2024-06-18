@@ -18,4 +18,4 @@ if location["latitude"]!=None:
     st.image(png)
     st.download_button("Download",data=png,file_name="geoqr.png")
 else:
-    st.write("位置情報が取得できません")
+    st.write("ボタンを押して位置情報を取得")
