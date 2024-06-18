@@ -4,7 +4,7 @@ import qrcode
 import io
 
 location = streamlit_geolocation()
-st.write(location)
+
 if location["latitude"]!=None:
     lat=location["latitude"]
     lon=location["longitude"]
